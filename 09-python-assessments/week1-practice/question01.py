@@ -1,5 +1,4 @@
 # Salman Sir Assessment
-
 # QUESTION 01
 
 
