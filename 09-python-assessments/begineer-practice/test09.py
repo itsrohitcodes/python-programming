@@ -1,0 +1,16 @@
+# Python Begineer Bootcamp
+# Find the Majority Element in an array
+
+
+# Majority Element Logic
+def majority_element(nums):
+    # write your logic here
+    for num in nums:
+        if nums.count(num) > len(nums) // 2:
+            return num
+
+
+# Majority Element
+if __name__ == "__main__":
+    nums = list(map(int, input().split()))
+    print(majority_element(nums))
